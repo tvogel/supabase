@@ -211,4 +211,5 @@ services:
     volumes:
       - ./volumes/db/realtime.sql:/docker-entrypoint-initdb.d/realtime.sql
       - ./volumes/db/roles.sql:/docker-entrypoint-initdb.d/roles.sql
+      - ./volumes/db/functions.sql:/docker-entrypoint-initdb.d/functions.sql
       - ./volumes/db/data:/var/lib/postgresql/data

@@ -40,7 +40,7 @@ export const generateDatabaseMenu = (project?: Project): ProductMenuGroup[] => {
           url: `/project/${ref}/database/replication`,
           items: [],
         },
-        ...(showHooksRoute
+        ...(true
           ? [
               {
                 name: 'Webhooks',

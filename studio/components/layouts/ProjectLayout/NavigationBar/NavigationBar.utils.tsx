@@ -96,7 +96,7 @@ export const generateProductRoutes = (ref?: string, project?: ProjectBase): Rout
           ? buildingUrl
           : `/project/${ref}/storage/buckets`),
     },
-    ...(IS_PLATFORM
+    ...(true
       ? [
           {
             key: 'functions',
