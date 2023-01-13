@@ -3970,9 +3970,15 @@ functions:
           })
           ```
 
-  - id: subscribe
+  - id: broadcast
     title: on().subscribe()
-    $ref: '@supabase/realtime-js.RealtimeChannel.on'
+    $ref: '@supabase/realtime-js.RealtimeChannel.on.0'
+  - id: presence
+    title: on().subscribe()
+    $ref: '@supabase/realtime-js.RealtimeChannel.on.1'
+  - id: database-changes
+    title: on().subscribe()
+    $ref: '@supabase/realtime-js.RealtimeChannel.on.4'
     notes: |
       - Realtime is disabled by default for new Projects for better database performance and security. You can turn it on by [managing replication](/docs/guides/api#managing-realtime).
       - Row level security is not applied to delete statements.

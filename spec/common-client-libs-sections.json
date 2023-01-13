@@ -668,9 +668,25 @@
         "type": "function"
       },
       {
-        "id": "subscribe",
+        "id": "broadcast",
+        "title": "Subscribe to broadcast",
+        "slug": "broadcast",
+        "product": "realtime",
+        "type": "function",
+        "libs": ["js"]
+      },
+      {
+        "id": "presence",
+        "title": "Subscribe to presence",
+        "slug": "presence",
+        "product": "realtime",
+        "type": "function",
+        "libs": ["js"]
+      },
+      {
+        "id": "database-changes",
         "title": "Subscribe to database changes",
-        "slug": "subscribe",
+        "slug": "database-changes",
         "product": "realtime",
         "type": "function"
       },
@@ -695,7 +711,6 @@
         "product": "realtime",
         "type": "function"
       },
-
       {
         "id": "remove-channel",
         "title": "Unsubscribe from a channel",
